@@ -1,0 +1,25 @@
+{
+  "name": "TaskViewer",
+  "version": "1.0.0",
+  "description": "GitHub task viewer for local development",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "rm -r build && parcel build src/index.html -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SGA-masatoshi-ohta@github.com/SGA-masatoshi-ohta/TaskViewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SGA-masatoshi-ohta/TaskViewer/issues"
+  },
+  "homepage": "https://github.com/SGA-masatoshi-ohta/TaskViewer#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^4.0.2"
+  }
+}
