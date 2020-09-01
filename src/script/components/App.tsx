@@ -1,6 +1,6 @@
 import * as React from 'react';
-//import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
-import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+//import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { Main } from './Main';
 import { SignIn } from './SignIn';
 import { SignOut } from './SignOut';
@@ -8,7 +8,7 @@ import { Top as Top } from './Top';
 
 export const App: React.FC = () => {
   return (<div  style={{margin: '1em'}}>
-    <Router>
+    <Router basename="/TaskViewer">
       <Switch>
         <Route path="/" exact={true} component={Top} />
         <Route path="/signin" component={SignIn} />
