@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+//import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { Main } from './Main';
 import { SignIn } from './SignIn';
 import { SignOut } from './SignOut';
